@@ -1,6 +1,24 @@
-p{
-    font-size:17px;
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.imagen1{
+    height: 360px;
+    width: 1000px;
+    
+}
+footer{
+    background-color: #c3c6f4;
+}
+.parrafo1{
+    font-family: 'Rufina', serif;
+    font-size:19px;
     color:black;
-    font-style: italic;
-    font-family: 'Times New Roman';
+}
+.footer{
+    text-align: center;
+    color: black;
+    font-size: 18px;
 }
