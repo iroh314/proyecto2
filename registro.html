@@ -3,24 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario de registro</title>
 </head>
 <body>
     <header>
-        <h1>Pagina 3</h1>
+        <h1>Registro de Usuarios</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ir a la página principal</a></li>
+                <li><a href="pagina1.html">Ir al contenido multimedia</a></li>
+                <li><a href="pagina2.html">Ir a curiosidades astronomícas</a></li>
+            </ul>
+        </nav>
+        <hr>
     </header>
 
-    <main>
+    <main class="fondoRegistro">
+        <p class="infoRegistro">A continuación podra registrarse en nuestro sitio Web y a su vez estar al tanto de las novedades, noticias de actualidad entre otros, toda información que se actualice se le notificara por correo electrónico</p>
         <form action=""><!--Etiqueta de formulario-->
             
-            <input type="text" placeholder="Escriba su nombre"><!--Etiqueta para anexar elementos al formulario-->
-            <input type="number" placeholder="Ingrese su año de nacimiento"><!--Atributo type para definir el elemento-->
+            <input type="text" placeholder="Ingrese su nombre"><br><br><!--Etiqueta para anexar elementos al formulario-->
+            <input type="text" placeholder="Ingrese sus apellidos"><br><br>
+            <input type="text" placeholder="Ingrese su edad"><br><br>
+            <input type="text" placeholder="Ingrese su correo electrónico"><br><br>
+            <label for="fechaNacimiento">Seleccione su fecha de nacimiento</label><br>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento"><!--Atributo type para definir el elemento--><br><br>
+            <input type="password" placeholder="Ingrese su contraseña"><br><br>
+            <input type="submit" value="Enviar registro"><br><br>
+            <input type="checkbox" name="terminosYCondiciones>
+            <label for="terminosYCondiciones">Aceptar terminos y condiciones</label>
 
         </form>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <p>Jhon Jairo Sanchez &#x263B;</p>
+        <p>Correo electronico = iroh314@gmail.com</p>
+        <p>Página web 2021</p>
     </footer>
 </body>
 </html>
